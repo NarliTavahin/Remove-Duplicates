@@ -1,0 +1,105 @@
+* {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.box {
+    width: 666px;
+    height: 630px;
+    border: 2px solid gray;
+    box-shadow: rgb(85, 91, 255) 0px 0px 0px 3px, rgb(31, 193, 27) 0px 0px 0px 6px, rgb(255, 217, 19) 0px 0px 0px 9px, rgb(255, 156, 85) 0px 0px 0px 12px, rgb(255, 85, 85) 0px 0px 0px 15px;
+    color: rgb(2 18 103);
+    margin: 120px auto;
+    border-radius: 10%;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 37px;
+  margin: 32px 52px 40px;
+}
+
+.txt {
+    margin: 17px 15px;
+}
+
+.bodyy {
+  width: 440px;
+  height: 400;
+  margin: 80px 111px;
+}
+
+
+
+.button-73 {
+  appearance: none;
+  background-color: #FFFFFF;
+  border-radius: 40em;
+  border-style: none;
+  box-shadow: #ADCFFF 0 -12px 6px inset;
+  box-sizing: border-box;
+  color: #000000;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: -.24px;
+  margin: 0;
+  outline: none;
+  padding: 1rem 1.3rem;
+  quotes: auto;
+  text-align: center;
+  text-decoration: none;
+  transition: all .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-73:hover {
+  background-color: #FFC229;
+  box-shadow: #FF6314 0 -6px 8px inset;
+  transform: scale(1.125);
+}
+
+.button-73:active {
+  transform: scale(1.025);
+}
+
+@media (min-width: 768px) {
+  .button-73 {
+    font-size: 1.5rem;
+    padding: .75rem 2rem;
+  }
+}
+
+.sub {
+    margin: 66px 144px;
+}
+.out {
+    margin: 25px -30px;
+    padding: 22px 13px;
+    border: none;
+    border-bottom: 2px solid rgb(0, 2, 128);
+    box-shadow: 0 0 10px 5px;
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+    border-radius: 5%;
+}
+
+#result {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.code-input {
+  width: 222px;
+  height: 50px;
+  padding: 3px 12px;
+  font-size: 20px;
+  box-shadow: inset 0 0 10px;
+  text-align: center;
+  border-radius: 3%;
+  margin: 5px 2px;
+}
